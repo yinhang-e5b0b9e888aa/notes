@@ -1,5 +1,10 @@
 # pandas
 
+## 设置
+pd.set_option("display.max_colwidth", 1000, "display.max_columns", None)
+
+
+
 ```python
 #pandas
 

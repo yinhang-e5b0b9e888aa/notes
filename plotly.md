@@ -3,6 +3,10 @@
 # 安装
 conda install -c plotly plotly-orca psutil cufflinks
 
+**启动jupyter时需要加参数** ！！！
+jupyter notebook --NotebookApp.iopub_data_rate_limit=1.0e10
+
+
 ## 初始化
 ```python
 from plotly import __version__
