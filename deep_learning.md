@@ -23,3 +23,7 @@ In essence, this codifies the intuition we teach our children: using “context 
 
 # 宏观来说，rnn还是一个一个sample地处理，区别在于一个sample内部会分步处理
 The state of the RNN is reset between processing two dif- ferent, independent sequences (such as two different IMDB reviews), so you still consider one sequence a sin- gle data point: a single input to the network. What changes is that this data point is no longer processed in a single step; rather, the network internally loops over sequence elements.
+
+ReLU比sigmoid好的原因是sigmoid在左右两侧大部分点的导数为0，not learn
+
+
