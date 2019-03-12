@@ -2,7 +2,8 @@
 
 # 评估classification
 - accuracy
-- confusion matrix 混淆矩阵
+- confusion matrix 混淆矩阵 (多分类问题直接从图可以看出，类似于热图，个数多的颜色深，不在对角线的有问题)
+  https://scikit-learn.org/stable/auto_examples/model_selection/plot_confusion_matrix.html
   The rows of the matrix correspond to ground truth labels, and the columns represent the prediction.
 - per class accuracy 不平衡时有用
 - Log-loss

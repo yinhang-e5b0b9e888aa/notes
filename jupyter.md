@@ -92,3 +92,11 @@ import rpy2.rinterface
 ## python cell 引入 R
 val_name = %Rget r_val
 
+
+
+# conda env 可能出现的decodoe错误 (例如deepchem)
+
+```bash
+LANG="en_US.UTF-8" export LANG LANGUAGE="en_US:en" export LANGUAGE
+jupyter notebook
+```

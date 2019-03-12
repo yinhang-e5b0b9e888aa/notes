@@ -48,3 +48,39 @@ diagnosis_model = load_model("data/diagnosis.bin")
 
 # 注意，keras的target要从0开始编码，使用sparse_categorical_crossentropy，
 可用 keras.utils.to_categorical 试验
+
+
+# framework
+```python
+with tf.name_scope("placeholders"):
+  ...
+  ...
+  
+with tf.name_scope("model_inner"):
+  ...
+  
+with tf.name_scope("output"):
+  ...
+  
+with tf.name_scope("loss"):
+  ...
+  
+with tf.name_scope("optim"):
+  train_op = tf.train....minimize(l)
+  
+with.tf.name_scope("summaries"):
+  tf.summary.scalar("loss", l)
+  merged = tf.summary.merge_all()
+  
+
+train_writer = tf.summary.FileWriter("", tf.get_default_graph())
+
+with tf.Session() as sess:
+  sess.run(tf.global_variables_initializer())
+  for epoch in ...:
+    feed_dict = {...}
+    _, summary, loss = sess.run([train_op, merged, l])
+    train_writer.add_summary(summary, step)
+    
+  pred = sess.run(y_pred, feed_dict={...})
+```

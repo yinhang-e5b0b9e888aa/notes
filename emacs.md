@@ -7,3 +7,8 @@
 4. ！！！注意disable global linum mode
 
 helm mini 里面ctrl + o 切换recentf
+
+
+# magit 
+
+查看某个unstaged file的diff，敲TAB键！！！
