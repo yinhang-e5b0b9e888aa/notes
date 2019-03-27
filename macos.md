@@ -1,5 +1,15 @@
 # macos
 
+# 设置ctrl位置
+安装https://github.com/tekezo/Karabiner-Elements
+然后complex modifications -> add rule 使用https://madogiwa.github.io/KE-complex_modifications/ 中的"Caps and return to ctrl. Ctrl to caps."
+simple modifications -> add item
+
+left_command -> left_option
+left_option -> left_command
+right_command -> right_option
+right_option -> right_command
+
 # mac聚焦搜索 spotlight
    command+enter 打开文件所在路径
    
