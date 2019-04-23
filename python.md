@@ -135,3 +135,14 @@ from rpy2.robjects.conversion import localconverter
 with localconverter(ro.default_converter + pandas2ri.converter):
     df_from_r_df = ro.conversion.ri2py(r_df)
 ```
+
+# 在vi中重新格式化json文件
+```
+:%!python -m json.tool
+```
+
+# 查看函数原型
+```
+import inspect
+inspect.signature(function_name)
+```

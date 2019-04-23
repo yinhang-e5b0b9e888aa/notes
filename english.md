@@ -18,4 +18,16 @@ for **pedagoical** purposes
 
 this creature can be **subsumed** in the class of reptiles
 
+**manifest** itself in an increased number of parameters
+
+has **proliferated** in academia and industry
+
+it **confers** two advantages to developers
+
+tolerent to **perturbations**
+
+the **efficacy** of our parameter server
+
+
+
 
